@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  cron-leader:
+    build: .
+    ports:
+      - '8000:8000'
